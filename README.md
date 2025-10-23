@@ -1,0 +1,2 @@
+# Sessac-miniproject
+Dementia prediction
