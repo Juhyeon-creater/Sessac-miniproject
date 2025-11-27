@@ -38,21 +38,6 @@ Raw 데이터 수집 -> 결측·이상치 처리 및 정규화 -> 활동·수면
 ├── .gitignore                       # Git 업로드 제외 설정
 └── README.md                        # 프로젝트 설명서
 ```
-### ⬇️설치
-```bash
-# 레포지토리 클론
-git clone https://github.com/Juhyeon-creater/Sessac-miniproject.git
-
-# 패키지 설치
-pip install -r requirements.txt
-
-# 실행 (원하는 모드 선택)
-python main.py
-```
-
-
-
-## Stacks
 
 ## Stacks
 
