@@ -25,7 +25,7 @@ Raw 데이터 수집 -> 결측·이상치 처리 및 정규화 -> 활동·수면
 ### 📂 디렉토리 구조 (Directory Structure)
 
 ```bash
-├── 📁 data/                         # 웨어러블 raw data
+├── 📁 01.데이터/                         # 웨어러블 raw data
 │   ├── 1. Training/                 # 훈련 데이터
 │   └── 2. Validation/               # 검증 데이터
 │
