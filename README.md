@@ -17,17 +17,7 @@
 스마트워치에서 수집된 걸음 수, 활동량, 수면 단계, 심박수 등의 생체 데이터를 기반으로
 다음 과정을 수행했습니다.
 
-Raw 데이터 수집
-
-결측·이상치 처리 및 정규화
-
-활동·수면·인지 점수 매칭
-
-EDA 및 주요 특징 생성
-
-CatBoost·RandomForest 등 비교 모델 학습 및 평가
-
-결과 해석을 기반으로 앱 서비스 기획
+Raw 데이터 수집 -> 결측·이상치 처리 및 정규화 -> 활동·수면·인지 점수 매칭 -> EDA 및 주요 특징 생성 -> CatBoost·RandomForest 등 비교 모델 학습 및 평가 -> 결과 해석을 기반으로 앱 서비스 기획
 
 
 ## 3. 시작가이드
@@ -65,27 +55,21 @@ python main.py
 ## Stacks
 
 **Environment**
-<br>
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)
-![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-<br>
+**Environment**
+![Visual Studio Code](...)
+![Google Colab](...)
+![Anaconda](...)
+![Git](...)
+
 **Development & AI**
-<br>
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![YOLO](https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&logo=yolo&logoColor=white)
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-<br>
+![Python](...)
+![Pandas](...)
+![Scikit-Learn](...)
+![CatBoost](...)
+![Matplotlib](...)
+![Seaborn](...)
+
 **Communication**
-<br>
-![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
-![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
-<br>
-**Hardware**
-<br>
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
-<img src="https://img.shields.io/badge/Sensor-MPU6050-blue?style=for-the-badge" alt="MPU6050">
-<br>
+![Notion](...)
+![Slack](...)
+![Google Drive](...)
