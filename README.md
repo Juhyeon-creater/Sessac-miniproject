@@ -43,8 +43,9 @@ Raw 데이터 수집 -> 결측·이상치 처리 및 정규화 -> 활동·수면
 
 ```bash
 ├── 📁 Data/                         # 웨어러블 raw data
-│   ├── Training/                 # 훈련 데이터
-│   └── Validation/               # 검증 데이터
+│   ├── 1.걸음걸이            
+│   └── 2.수면
+│   └── 3.인지기능        
 │
 ├── 📁 Analysis/                     # 데이터 분석 과정
 │   ├── 1_project_template.ipynb          # 프로젝트 개발 템플릿
