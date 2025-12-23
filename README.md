@@ -49,7 +49,6 @@ Raw 데이터 수집 -> 결측·이상치 처리 및 정규화 -> 활동·수면
 │
 ├── 📁 Analysis/                     # 데이터 분석 과정
 │   ├── 1_project_template.ipynb          # 프로젝트 개발 템플릿
-│   ├── 2_data_collection_template.ipynb  # 데이터 수집·전처리
 │   ├── 3_EDA.ipynb                        # 탐색적 데이터 분석
 │   └── 4_model_fit.ipynb                  # 모델 학습 및 평가
 │
