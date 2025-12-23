@@ -60,6 +60,58 @@ Raw 데이터 수집 -> 결측·이상치 처리 및 정규화 -> 활동·수면
 └── README.md                        # 프로젝트 설명서
 ```
 
+## 5. 프로젝트 결과
+- CN vs Dem — Dual-Axis Feature Comparison: 정상군(CN)과 치매군(Dem)의 수면 점수 및 활동량 비교 분석 결과
+  - 정상군은 치매군보다 수면 점수가 약 8점 높았으며(78.5 vs 70.5) 일일 활동량은 약 1.76배 많았습니다(370 vs 210).
+    이는 양질의 수면과 활발한 신체 활동이 인지 기능 유지에 핵심적인 역할을 하며 두 지표를 결합하면 치매 조기 예측의 주요 바이오마커로 활용할 수 있음을 시사합니다.
+<img width="890" height="589" alt="image" src="https://github.com/user-attachments/assets/ffc00874-64fd-4614-ac1d-3a346e329dcb" />
+
+
+- 활동 총량과 수면주기 변화량 간의 관계 (99% 신뢰구간): 정상군(파란색)과 진단군(주황색)의 활동량과 수면 패턴 변화 상관관계 분석
+  - 활동량이 증가할수록 수면주기 변화량이 감소하는 음의 상관관계를 보이며 특히 진단군(주황색)은 활동량이 낮은 구간에서 수면 변화량의 편차가 크게 나타납니다.
+    이는 규칙적인 신체 활동이 안정적인 수면 패턴 유지에 기여하며 활동량 저하 시 수면 불안정성이 증가함을 의미합니다.
+<img width="789" height="580" alt="image" src="https://github.com/user-attachments/assets/17db6d0f-867d-40f7-b18c-7dd73edc177d" />
+
+
+- 휴식시간과 알으잠 길이 간의 관계 (정상군 vs 진단군, 99% 신뢰구간): 정상군(CN)과 진단군(Dem)의 휴식시간과 수면 길이의 상관관계 분석
+  - 휴식시간이 증가할수록 수면 길이가 선형적으로 증가하는 강한 양의 상관관계를 보이며 진단군(주황색)이 정상군(파란색)보다 전 구간에서 약간 더 높은 수면 시간을 기록합니다.
+    이는 치매군이 신체적 피로 회복을 위해 더 많은 수면 시간이 필요하거나 과도한 수면이 인지 저하의 신호일 수 있음을 시사합니다.
+<img width="720" height="481" alt="image" src="https://github.com/user-attachments/assets/1034bbf4-685f-4d1a-a811-3d1ab197bf72" />
+
+
+- 정상군 vs 진단군 — 깊은 수면 점수 & 수면시 최저 심박수: 정상군과 진단군의 수면의 질 및 생리적 지표 비교 분석
+  - 정상군은 진단군보다 깊은 수면 점수(90 vs 57)와 최저 심박수(60 vs 51)가 모두 높게 나타나 정상군이 더 안정적이고 양질의 수면을 취하고 있음을 보여줍니다.
+    진단군의 낮은 수면 점수와 심박수는 자율신경계 기능 저하 및 수면 중 생리적 회복 능력 감소를 의미하며 이는 인지 기능 저하와 밀접한 관련이 있습니다.
+<img width="1189" height="589" alt="image" src="https://github.com/user-attachments/assets/f93b537a-98eb-4c98-a651-9d8b4197032f" />
+
+
+- 정상군 vs 진단군 — 총 활동량 & 휴식 시간: 정상군과 진단군의 일일 활동 패턴 및 휴식 시간 비교 분석
+  - 정상군은 총 활동량(410)이 진단군(260)보다 약 1.58배 높지만 휴식 시간은 정상군(490)이 진단군(610)보다 약 120분 적어 정상군이 더 활동적이면서도 효율적인 에너지 관리를 하고 있음을 보여줍니다.
+    진단군의 낮은 활동량과 긴 휴식 시간은 신체적 활력 저하와 과도한 피로감을 반영하며 이는 치매 환자의 전형적인 생활 패턴 변화를 나타냅니다.
+<img width="1189" height="589" alt="image" src="https://github.com/user-attachments/assets/96c8b820-e9c5-40b4-850c-4977c9ec283e" />
+
+
+- 정상군 — 수면 시간 변동성
+  - 정상군은 약 2년간 수면 시간이 대체로 안정적이며 평균 10,000-20,000 범위 내에서 변동하고 2-3회의 일시적 스파이크(80,000 수준)를 제외하면 일관된 패턴을 유지합니다.
+<img width="1990" height="489" alt="image" src="https://github.com/user-attachments/assets/e3664a02-cdd6-44ad-9b85-82d92a8ad09e" />
+
+
+- 진단군 — 수면 시간 변동성
+  - 진단군은 수면 시간의 변동성이 매우 크고 불규칙하며, 주기적으로 높은 피크(100,000 수준)가 반복되고 다양한 색상의 라인들이 서로 다른 패턴을 보여 개인 간 수면 패턴 차이가 크고 전반적으로 불안정한 수면 상태를 나타냅니다.
+<img width="1990" height="489" alt="image" src="https://github.com/user-attachments/assets/dc63e45c-ba33-4536-b1ef-423ac35ce373" />
+
+
+- 정상군 상관계수 (activity vs sleep)
+  - 정상군은 진단군보다 상관관계가 더 약하고 균일하며(대부분 연한 파란색/흰색) activity_rest를 제외하면 활동량과 수면 지표 간의 명확한 연관성이 적어 정상군이 활동과 수면을 독립적으로 조절하며 안정적인 생체 리듬을 유지함을 시사합니다.
+<img width="1122" height="784" alt="image" src="https://github.com/user-attachments/assets/9ff0acf0-3fd9-4b79-a4ec-c64e4077ec95" />
+
+
+- 진단군 상관계수 (activity vs sleep)
+  - 진단군은 활동량과 수면 지표 간 상관관계가 불균일하며 특히 activity_rest와 일부 수면 지표(sleep_duration, sleep_light, sleep_midpoint_delta 등) 간에 약한 양의 상관관계(주황색)가 관찰되나 전반적으로 뚜렷한 패턴이 없어 생활 리듬의 불규칙성을 보여줍니다.
+<img width="1122" height="784" alt="image" src="https://github.com/user-attachments/assets/bc773a1e-fd60-418d-8c33-bd1980199498" />
+
+
+
 ## Stacks
 
 **Environment**  
