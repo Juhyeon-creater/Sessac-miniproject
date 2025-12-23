@@ -56,8 +56,9 @@ Raw 데이터 수집 -> 결측·이상치 처리 및 정규화 -> 활동·수면
 │   ├── CN_delta.png
 │   ├── Dem_delta.png
 │   └── Feature Importance.png
-├── requirements.txt         
-└── README.md                        # 프로젝트 설명서
+│
+├── .gitignore                   # Git 업로드 제외 설정
+└── README.md                    # 프로젝트 설명서
 ```
 
 ## 5. 프로젝트 결과
