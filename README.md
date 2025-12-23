@@ -25,17 +25,21 @@ Raw 데이터 수집 -> 결측·이상치 처리 및 정규화 -> 활동·수면
 ### 📂 디렉토리 구조 (Directory Structure)
 
 ```bash
-├── 📁 Raw data/                         # 웨어러블 raw data
-│   ├── 1. Training/                 # 훈련 데이터
-│   └── 2. Validation/               # 검증 데이터
+├── 📁 data/                         # 웨어러블 raw data
+│   ├── Training/                 # 훈련 데이터
+│   └── Validation/               # 검증 데이터
 │
 ├── 📁 Analysis/                     # 데이터 분석 과정
 │   ├── 1_project_template.ipynb          # 프로젝트 개발 템플릿
 │   ├── 2_data_collection_template.ipynb  # 데이터 수집·전처리
 │   ├── 3_EDA.ipynb                        # 탐색적 데이터 분석
 │   └── 4_model_fit.ipynb                  # 모델 학습 및 평가
-│
-├── .gitignore                       # Git 업로드 제외 설정
+├── 📁 results/
+│   ├── CN_delta.png
+│   ├── Dem_delta.png
+│   └── Feature Importance.png
+├── requirements.txt         # 새로 추가
+└── README.md
 └── README.md                        # 프로젝트 설명서
 ```
 
