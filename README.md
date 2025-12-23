@@ -42,7 +42,7 @@ Raw 데이터 수집 -> 결측·이상치 처리 및 정규화 -> 활동·수면
 ### 📂 디렉토리 구조 (Directory Structure)
 
 ```bash
-├── 📁 data/                         # 웨어러블 raw data
+├── 📁 Data/                         # 웨어러블 raw data
 │   ├── Training/                 # 훈련 데이터
 │   └── Validation/               # 검증 데이터
 │
@@ -52,7 +52,7 @@ Raw 데이터 수집 -> 결측·이상치 처리 및 정규화 -> 활동·수면
 │   ├── 3_EDA.ipynb                        # 탐색적 데이터 분석
 │   └── 4_model_fit.ipynb                  # 모델 학습 및 평가
 │
-├── 📁 results/                           # 시각화
+├── 📁 Results/                           # 시각화
 │   ├── CN_delta.png
 │   ├── Dem_delta.png
 │   └── Feature Importance.png
