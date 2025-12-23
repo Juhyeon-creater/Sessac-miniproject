@@ -24,7 +24,7 @@
   - 데이터분석2 : 모델 평가, 하이퍼파라미터 튜닝
 
 - 데이터 출처
-AI-Hub: [경도인지장애 환자 생활 데이터](https://aihub.or.kr/)
+AI-Hub: [치매 고위험군 웨어러블 라이프로그]([https://aihub.or.kr/](https://www.aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=&topMenu=&srchOptnCnd=OPTNCND001&searchKeyword=%EC%84%BC%EC%84%9C&srchDetailCnd=DETAILCND001&srchOrder=ORDER002&srchPagePer=20&srchDataRealmCode=REALM006&aihubDataSe=data&dataSetSn=226))
   - 300명 | 총 3,9000건
   - 활동 데이터 (15,000 건 | 시계열 데이터)
   - 수면 데이터 (15,000 건 | 시계열 데이터)
